@@ -55,9 +55,9 @@ def save_csvfile(filename, header, contents_list):
 def main():
     #### VARIABLES
     # APIキー https://developer.twitter.com から取得
-    BEARER_TOKEN = r"AAAAAAAAAAAAAAAAAAAAAMAukAEAAAAAV1HKiYyDoz%2BCkWjdQXVYGNl1A%2B8%3DWFOml3c4itWz8reVdHAmF9dPufaN7KVUV4DMuSsl0BHcXSGYgZ"
+    BEARER_TOKEN = r"BEARER_TOKEN_HERE"
     # ユーザーID
-    user_id = 1249198073990885376
+    user_id = USERIDHERE!!!!!!
     # フォローしてる人を探すときは[0] フォロワーを探すときは[1]
     ff = ["following", "followers"][0]
     # 取得したいデータ数
